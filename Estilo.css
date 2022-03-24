@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+  
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+}
+
+/* Secciones */
+.seccion {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    font-family: 'Dancing Script', cursive;
+    background-image: url('Inicio.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#seccion2 {
+    font-family: 'Permanent Marker', cursive;
+    padding: 40px; 
+    background-color: #5EE0C2; 
+}
+
+#seccion3 {
+    display: flex;
+    justify-content: center;
+    
+         
+}
+.my-row{
+    justify-content: center;
+    padding: 75px 0px 0px 75px;
+    align-items: center;
+}
+#seccion4 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://peopledotcom.files.wordpress.com/2019/01/dog-bed-06.jpg');
+    
+}
+#seccion5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#seccion6 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url('http://2.bp.blogspot.com/-ijrJVC4Wvuo/UwOYZ4mOFRI/AAAAAAACPw0/a2Q1AKkpC4g/s1600/convite.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+
+
+
+
+
+seccion:nth-of-type(1) {
+   
+    background-image: url('imagenes/Incio.jpg');
+    
+}
+
+seccion:nth-of-type(2) {
+    background-color: #5EE0C2;
+}
+
+seccion:nth-of-type(3) {
+    background-color: #F04A63;
+}
